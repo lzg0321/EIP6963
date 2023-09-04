@@ -275,7 +275,7 @@ function App() {
 
   return (
     <>
-      <main className="relative flex flex-col items-center justify-start min-h-screen sm:min-h-[calc(100vh_-_2rem)] py-4 max-w-md mx-auto border-0 sm:border-2 border-zinc-700/50 rounded-none sm:rounded-xl px-4 my-0 sm:my-4 bg-zinc-950">
+      <main className="relative flex flex-col items-center justify-start min-h-screen sm:min-h-[calc(100vh_-_2rem)] py-4 max-w-xl mx-auto border-0 sm:border-2 border-zinc-700/50 rounded-none sm:rounded-xl px-4 my-0 sm:my-4 bg-zinc-950">
         <div className="flex items-end self-start justify-between w-full py-4 mb-4 overflow-hidden leading-snug h-fit">
           <motion.h1
             variants={sentenceVariant}
@@ -330,7 +330,7 @@ function App() {
         <div className="absolute bottom-0 left-0 z-20 w-[calc(100%_-_2rem)] mx-4 my-4 overflow-hidden pointer-events-none h-1/4 bg-gradient-to-b from-transparent to-zinc-950" />
         <div
           ref={contentRef}
-          className="w-full max-h-[calc(100vh_-_10rem)] space-y-2 relative"
+          className="w-full max-h-[calc(100vh_-_5rem)] space-y-2 relative"
         >
           <AnimatePresence mode="wait">
             {providers.size !== 0 ? (
